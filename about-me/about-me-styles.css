@@ -1,0 +1,84 @@
+.nav {
+  --bs-nav-link-padding-x: 1rem;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: var(--bs-link-color);
+  --bs-nav-link-hover-color: var(--bs-link-hover-color);
+  --bs-nav-link-disabled-color: var(--bs-secondary-color);
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+nav {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.background-image {
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+}
+
+.heading {
+  font-size: 81px;
+}
+
+#paragraph-id {
+  background-color:rgb(255, 255, 255);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #ffffff, #ffe7ea, #dbefff);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.blue-background {
+  background-color: #004d5a;
+  color:#ffffff;
+}
+
+.white-text {
+  color:#ffffff;
+}
+
+svg {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #b7f4ff; /* replace red with your desired color */
+}
+
+.border-for-button {
+  border-color: white;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.link-color {
+  color: #007bff;
+}
